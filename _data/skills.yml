@@ -1,0 +1,62 @@
+- title: Languages
+  items:
+    - name: Ruby
+      level: 3
+    - name: Java
+      level: 2
+    - name: Javascript
+      level: 3
+    - name: Python
+      level: 3
+    - name: PHP
+      level: 2
+    - name: C#
+      level: 3
+    - name: Elixir
+      level: 0
+- title: Frameworks (Web)
+  items:
+    - name: Django
+      level: 3
+    - name: Flask
+      level: 3
+    - name: Rails
+      level: 3
+    - name: Phoenix
+      level: 1
+    - name: Spring
+      level: 2
+    - name: ASP.NET
+      level: 3
+    - name: Vue.js
+      level: 2
+    - name: anime.js
+      level: 0
+    - name: Bootstrap
+      level: 3
+    - name: Stylus
+      level: 2
+    - name: Sass
+      level: 3
+    - name: less
+      level: 0
+- title: Frameworks (Testing)
+  items:
+    - name: Selenium
+      level: 2
+    - name: nUnit
+      level: 2
+    - name: jUnit
+      level: 2
+- title: Testing
+  items:
+    - name: TDD 
+      level: 3
+    - name: BDD
+      level: 3
+    - name: Unit Testing
+      level: 2
+    - name: Integration Testing
+      level: 1
+    - name: Automation
+      level: 3

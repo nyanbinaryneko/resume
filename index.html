@@ -1,0 +1,75 @@
+---
+---
+<!-- source at https://github.com/aviaryan/resume -->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>{{ site.title }}</title>
+<meta name="viewport" content="width=device-width">
+<meta name="author" content="Ali Neer">
+<link rel="author" href="https://plus.google.com/u/0/+AviAryan/posts">
+<meta name="description" content="{{ site.description }}">
+
+{% assign islocal = false %}
+{% for static_file in site.static_files %}
+  {% if static_file.path == '/local' %}
+    {% assign islocal = true %}
+  {% endif %}
+{% endfor %}
+
+{% if islocal == true %}
+<link rel="stylesheet" href="assets/oxygen.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+{% else %}
+<link href='https://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+{% endif %}
+
+<link rel="stylesheet" href="assets/main.css"/>
+
+{% if islocal == false %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110526214-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110526214-2');
+</script>
+{% endif %}
+
+</head>
+
+<body>
+
+<div id="header" class="header">
+  <div class="header-container">
+	  <div class="flex-left">
+	    <h1>{{site.name}}</h1>
+	    <span class="tagline">{{site.job}}</span>
+	  </div>
+	  <!--<div class="flex-right">
+	    <img class="pic" src="images/2016-03.jpg"></img>
+	  </div>-->
+  </div>
+</div>
+
+<div id="content">
+
+{% include education.html %}
+{% include skills.html %}
+{% include projects.html %}
+{% include work.html %}
+{% include social.html %}
+{% include contact.html %}
+{% include references.html %}
+
+</div>
+
+</body>
+
+</html>

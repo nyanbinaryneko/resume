@@ -1,0 +1,19 @@
+- title: BoredGaming
+  link: https://github.com/alikoneko/boredgaming
+  desc: A coming soon matchmaker for helping gamers find other gamers to play tabletop games with.
+
+- title: AliNeer.com
+  link: https://alineer.com
+  desc: A jekyll based resume that will constantly be improving!
+
+- title: A Better Markov Bot
+  link: https://twitter.com/BarklonHusk
+  desc: Working on making a more realistic sounding Markov bot for Twitter under the guise of being Elon Musk as a cyborg husky from the moon. Documenting this on Patreon and blog while working through various issues, and learning better Natural Language Processing skills.
+
+- title: Personal Blog
+  link: 
+  desc: Mostly tech and speculative microfiction. Jekyll based off of the SpacEMacs theme, altered for the theme of the blog, and preference colors. Also, the testing ground for any and all new technologies of interest. 
+
+- title: WednesdayAsAService
+  link: https://rainbowtextgenerator.herokuapp.com/
+  desc: A simple Rails based webapp to to display rainbow text as a sine wave. The project was done to learn the new features of Rails 5.0

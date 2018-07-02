@@ -1,0 +1,20 @@
+- title: Front End Web Developer
+  org: TrackitEz
+  startTime: 01-2018
+  endTime: 06-2018
+  desc: Developing cloudbased HIIPA and OSHA HR compliance software. 
+- title: Software Developer
+  org: Ordyx
+  startTime: 08-2018
+  endTime: 11-2018
+  desc: Designed and implemented an Android application for managing employees, orders, and general restaurant tasks via REST endpoints for a Point of Sale company.
+- title: Web Developer
+  org: ThinkRite, Inc
+  startTime: 11-2016 
+  endTime: 06-2017
+  desc: Maintained and developed a Java Spring based profile website, and refactored the current front end to be responsive.
+- title: TechStar Intern
+  org: Ultimate Software
+  startTime: 01-2016
+  endTime: 04-2016
+  desc: Coordinated with developers to write and test development tools for six projects through boundary testing, integration testing, unit testing, and race conditions.
