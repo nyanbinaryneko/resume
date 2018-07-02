@@ -7,5 +7,3 @@ name: Ali Neer
 job: Fullstack Web Developer 
 
 highlighter: rouge
-
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
