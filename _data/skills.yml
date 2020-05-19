@@ -56,7 +56,11 @@
       level: 1
 - title: Cloud
   items:
-    - AWS services
-    - Azure services
-    - Docker
-    - Kubernetes
+    - name: AWS services
+      level: 3
+    - name: Azure services
+      level: 3
+    - name: Docker
+      level: 3
+    - name: Kubernetes
+      level: 3
