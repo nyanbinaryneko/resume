@@ -7,13 +7,11 @@
     - name: Javascript
       level: 3
     - name: Python
-      level: 3
+      level: 4
     - name: PHP
       level: 2
     - name: C#
-      level: 3
-    - name: Elixir
-      level: 0
+      level: 2
 - title: Frameworks (Web)
   items:
     - name: Django
@@ -22,16 +20,14 @@
       level: 3
     - name: Rails
       level: 3
-    - name: Phoenix
-      level: 1
-    - name: Spring
-      level: 2
-    - name: ASP.NET
-      level: 3
     - name: Vue.js
       level: 2
+    - name: React.js
+      level: 3
+    - name: Gatsby.js
+      level: 3
     - name: anime.js
-      level: 0
+      level: 2
     - name: Bootstrap
       level: 3
     - name: Stylus
@@ -39,7 +35,7 @@
     - name: Sass
       level: 3
     - name: less
-      level: 0
+      level: 3
 - title: Frameworks (Testing)
   items:
     - name: Selenium
@@ -58,5 +54,9 @@
       level: 2
     - name: Integration Testing
       level: 1
-    - name: Automation
-      level: 3
+- title: Cloud
+  items:
+    - AWS services
+    - Azure services
+    - Docker
+    - Kubernetes

@@ -13,7 +13,3 @@
 - title: Personal Blog
   link: 
   desc: Mostly tech and speculative microfiction. Jekyll based off of the SpacEMacs theme, altered for the theme of the blog, and preference colors. Also, the testing ground for any and all new technologies of interest. 
-
-- title: WednesdayAsAService
-  link: https://rainbowtextgenerator.herokuapp.com/
-  desc: A simple Rails based webapp to to display rainbow text as a sine wave. The project was done to learn the new features of Rails 5.0
